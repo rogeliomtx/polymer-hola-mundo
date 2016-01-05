@@ -1,0 +1,21 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="hola-mundo">
+  <template>
+    <p>
+      Hola <strong>{{saludo}}</strong>
+    </p>
+  </template>
+
+  <script>
+    Polymer({
+      is: "hola-mundo",
+      properties: {
+        saludo: {
+          type: String,
+          value: "extraño"
+        }
+      }
+    })
+  </script>
+</dom-module>
